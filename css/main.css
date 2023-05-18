@@ -1,0 +1,71 @@
+/* reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos del pader/ contenedor*/
+.contenedor{
+    height: 800px;
+    background-color: rgb(20, 240, 240);
+    /*flex*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: center;
+}
+
+/* estilos de los hijos /items*/
+
+.hijo{
+    background-color: brown;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+}
+
+
+/* estilos de ejemplo*/
+
+/* estilos generales*/
+body{
+    background-color: mintcream;
+}
+
+
+/* estilos del header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+/*estilos del main*/
+
+main h1{
+    text-align: center;
+}
+
+main .caja{
+    display: flex;
+    margin: 30px;
+}
+
+main .caja .car-uno, .card-dos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
